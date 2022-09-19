@@ -71,3 +71,30 @@ input[type=text]:focus::-webkit-input-placeholder {
     outline: 0;
     outline-offset: 0;
 }
+
+@media all and (max-width: 570px){
+    h1 {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 393px){
+    h2, h3 {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 393px){
+    h1 {
+        font-size: 60px
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .input-button {
+        margin: 0px -20px;
+    }
+}
